@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task11</string>
+        <string-array name="cont">
+            <item> </item>
+            <item>Africa</item>
+            <item>Asia</item>
+            <item>America</item>
+            <item>Europe</item>
+        </string-array>
+</resources>
