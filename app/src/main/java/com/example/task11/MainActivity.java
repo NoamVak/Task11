@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Spinner countries;
     ListView cities;
     TextView area,pop;
-    int row;
+    int row,choice;
     String [] contA;
     String [][] countryA={{"","Kenya","Ethiopia","Ghana","Nigeria","Morocco","Sudan","Egypt"},
             {"","Japan","India","China","Thailand","South Korea","Vietnam","Nepal"},
@@ -45,7 +45,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             {"Buenos Aires","Cordoba","Rosairo","Mendoza","La Plata"},
             {"Havana","Santa Clara","Las Tunas","Bayamo","Matanzas"},
             {"Lima","Arequipa","Trujillo","Chiclayo","Piura"},
-            {""}};
+            {"Berlin","Hamburg","Munich","Bremen","Dresden"},
+            {"Liverpool","London","Manchester","Lincoln","Lancaster"},
+            {"Rome","Venice","Milan","Naples","Catania"},
+            {"Lyon","Paris","Nice","Toulouse","Montpellier"},
+            {"Madrid","Barcelona","Seville","Bilbao","Zaragoza"},
+            {"Amsterdam","Leiden","Rotterdam","The Hague","Haarlem"},
+            {"Stockholm","Arboga","Arvika","Sigtuna","Uppsala"}};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,9 +104,32 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }
         else if(s2.getId()==R.id.countries){
+            if(pos==0){
+                cities.setAdapter(null);
 
-
-
+            }
+            else{
+                if(row==1) {
+                    ArrayAdapter<String> lVAdp = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, citiesA[pos - 1]);
+                    cities.setAdapter(lVAdp);
+                    cities.setOnItemSelectedListener(this);
+                }
+                else if(row==2){
+                    ArrayAdapter<String> lVAdp = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, citiesA[pos+7- 1]);
+                    cities.setAdapter(lVAdp);
+                    cities.setOnItemSelectedListener(this);
+                }
+                else if(row==3){
+                    ArrayAdapter<String> lVAdp = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, citiesA[pos+14- 1]);
+                    cities.setAdapter(lVAdp);
+                    cities.setOnItemSelectedListener(this);
+                }
+                else if(row==4){
+                    ArrayAdapter<String> lVAdp = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, citiesA[pos+21- 1]);
+                    cities.setAdapter(lVAdp);
+                    cities.setOnItemSelectedListener(this);
+                }
+            }
         }
 
 
