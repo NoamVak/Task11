@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             {"Mexico city","Ecatepec","Guadalajara","Tijuana","Zapopan"},
             {"Buenos Aires","Cordoba","Rosairo","Mendoza","La Plata"},
             {"Havana","Santa Clara","Las Tunas","Bayamo","Matanzas"},
-            {"Lima","Arequipa","Trujillo","Chiclayo","Piura"}};
+            {"Lima","Arequipa","Trujillo","Chiclayo","Piura"},
+            {""}};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
