@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         pop=(TextView)findViewById(R.id.pop);
 
         contA=getResources().getStringArray(R.array.cont);
+        cities.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 
         cont.setOnItemSelectedListener(this);
         countries.setOnItemSelectedListener(this);
