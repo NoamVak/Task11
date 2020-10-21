@@ -503,7 +503,346 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                         break;
                 }
             }
-
+        }
+        else if(row1==3){
+            if(row2==1) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[14][0]);
+                        area.setText(info[14][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[14][2]);
+                        area.setText(info[14][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[14][4]);
+                        area.setText(info[14][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[14][6]);
+                        area.setText(info[14][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[14][8]);
+                        area.setText(info[14][9]);
+                        break;
+                }
+            }
+            else if(row2==2) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[15][0]);
+                        area.setText(info[15][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[15][2]);
+                        area.setText(info[15][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[15][4]);
+                        area.setText(info[15][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[15][6]);
+                        area.setText(info[15][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[15][8]);
+                        area.setText(info[15][9]);
+                        break;
+                }
+            }
+            else if(row2==3) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[16][0]);
+                        area.setText(info[16][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[16][2]);
+                        area.setText(info[16][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[16][4]);
+                        area.setText(info[16][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[16][6]);
+                        area.setText(info[16][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[16][8]);
+                        area.setText(info[16][9]);
+                        break;
+                }
+            }
+            else if(row2==4) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[17][0]);
+                        area.setText(info[17][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[17][2]);
+                        area.setText(info[17][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[17][4]);
+                        area.setText(info[17][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[17][6]);
+                        area.setText(info[17][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[17][8]);
+                        area.setText(info[17][9]);
+                        break;
+                }
+            }
+            else if(row2==5) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[18][0]);
+                        area.setText(info[18][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[18][2]);
+                        area.setText(info[18][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[18][4]);
+                        area.setText(info[18][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[18][6]);
+                        area.setText(info[18][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[18][8]);
+                        area.setText(info[18][9]);
+                        break;
+                }
+            }
+            else if(row2==6) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[19][0]);
+                        area.setText(info[19][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[19][2]);
+                        area.setText(info[19][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[19][4]);
+                        area.setText(info[19][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[19][6]);
+                        area.setText(info[19][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[19][8]);
+                        area.setText(info[19][9]);
+                        break;
+                }
+            }
+            else if(row2==7) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[20][0]);
+                        area.setText(info[20][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[20][2]);
+                        area.setText(info[20][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[20][4]);
+                        area.setText(info[20][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[20][6]);
+                        area.setText(info[20][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[20][8]);
+                        area.setText(info[20][9]);
+                        break;
+                }
+            }
+        }
+        else if(row1==4){
+            if(row2==1) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[21][0]);
+                        area.setText(info[21][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[21][2]);
+                        area.setText(info[21][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[21][4]);
+                        area.setText(info[21][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[21][6]);
+                        area.setText(info[21][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[21][8]);
+                        area.setText(info[21][9]);
+                        break;
+                }
+            }
+            else if(row2==2) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[22][0]);
+                        area.setText(info[21][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[22][2]);
+                        area.setText(info[21][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[22][4]);
+                        area.setText(info[21][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[22][6]);
+                        area.setText(info[21][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[22][8]);
+                        area.setText(info[22][9]);
+                        break;
+                }
+            }
+            else if(row2==3) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[23][0]);
+                        area.setText(info[23][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[23][2]);
+                        area.setText(info[23][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[23][4]);
+                        area.setText(info[23][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[23][6]);
+                        area.setText(info[23][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[23][8]);
+                        area.setText(info[23][9]);
+                        break;
+                }
+            }
+            else if(row2==4) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[24][0]);
+                        area.setText(info[24][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[24][2]);
+                        area.setText(info[24][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[24][4]);
+                        area.setText(info[24][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[24][6]);
+                        area.setText(info[24][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[24][8]);
+                        area.setText(info[24][9]);
+                        break;
+                }
+            }
+            else if(row2==5) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[25][0]);
+                        area.setText(info[25][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[25][2]);
+                        area.setText(info[25][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[25][4]);
+                        area.setText(info[25][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[25][6]);
+                        area.setText(info[25][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[25][8]);
+                        area.setText(info[25][9]);
+                        break;
+                }
+            }
+            else if(row2==6) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[26][0]);
+                        area.setText(info[26][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[26][2]);
+                        area.setText(info[26][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[26][4]);
+                        area.setText(info[26][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[26][6]);
+                        area.setText(info[26][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[26][8]);
+                        area.setText(info[26][9]);
+                        break;
+                }
+            }
+            else if(row2==7) {
+                switch (i) {
+                    case 0:
+                        pop.setText(info[27][0]);
+                        area.setText(info[27][1]);
+                        break;
+                    case 1:
+                        pop.setText(info[27][2]);
+                        area.setText(info[27][3]);
+                        break;
+                    case 2:
+                        pop.setText(info[27][4]);
+                        area.setText(info[27][5]);
+                        break;
+                    case 3:
+                        pop.setText(info[27][6]);
+                        area.setText(info[27][7]);
+                        break;
+                    case 4:
+                        pop.setText(info[27][8]);
+                        area.setText(info[27][9]);
+                        break;
+                }
+            }
         }
     }
 
